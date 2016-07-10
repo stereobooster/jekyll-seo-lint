@@ -1,6 +1,6 @@
 module Jekyll
   module Seo
-    module Lint
+    class Lint
       VERSION = "0.1.0"
     end
   end

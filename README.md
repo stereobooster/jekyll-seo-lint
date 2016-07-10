@@ -8,6 +8,7 @@ Links:
 - https://jekyllrb.com/docs/plugins/#commands
 - https://github.com/jekyll/mercenary
 - https://github.com/planetjekyll/awesome-jekyll-plugins
+- https://github.com/jekyll/jekyll-compose
 
 ## Installation
 
@@ -17,6 +18,12 @@ Add this line to your application's Gemfile:
 group :jekyll_plugins do
   gem 'jekyll-seo-lint'
 end
+```
+
+And then execute:
+
+```
+$ bundle
 ```
 
 ## Usage
