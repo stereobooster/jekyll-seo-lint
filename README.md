@@ -1,10 +1,35 @@
 # Jekyll::Seo::Lint
 
-Warning: this is not working yet
+**Warning**: this is not working yet
 
-Links:
+## Jekyll SEO/SMO ecosystem
 
-- https://github.com/jekyll/jekyll-seo-tag/issues/99
+### Jekyll plugins
+
+[jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) - Jekyll plugin to add metadata tags for search engines and social networks to better index and display your site's content.
+
+[jekyll-seo-lint](https://github.com/stereobooster/jekyll-seo-lint) - Jekyll plugin to validate metadata provided in front matter and in configuration. It validates if data is in appropriate format for `jekyll-seo-tag` and in some extent if it is appropriate format. Yet it can not guaranty full-validation. For full validation use official validation tools.
+
+[jekyll-seo-gem](https://github.com/pmarsceill/jekyll-seo-gem) - A script to help with seo on jekyll blog posts. `jekyll-seo-lint` validates front matter, while this script generates HTML and validates it
+
+### Official validation tools
+
+- [facebook](https://developers.facebook.com/tools/debug/)
+- [twitter](https://cards-dev.twitter.com/validator)
+- [google structured data](https://search.google.com/structured-data/testing-tool/u/0/)
+- [pinterest](https://developers.pinterest.com/tools/url-debugger/)
+- [json-ld](http://json-ld.org/playground/)
+- [oEmbed](http://iframely.com/debug)
+
+### Un-official validation tools
+
+- [Google & Bing SERP Preview Tool](http://tools.seomoves.org/search-preview.php)
+- [SERP Snippet Optimization Tool](http://www.seomofo.com/snippet-optimizer.html)
+- [New Title Tag Guidelines & Preview Tool](https://moz.com/blog/new-title-tag-guidelines-preview-tool)
+- [Social Media Image Sizes Cheat Sheet](https://docs.google.com/spreadsheets/d/1IpTYTTMJLcSXcPDtW9zSbPBHQyRdrLfKERohGIIkE_Q/edit#gid=0)
+
+### Development notes
+
 - https://jekyllrb.com/docs/plugins/#commands
 - https://github.com/jekyll/mercenary
 - https://github.com/planetjekyll/awesome-jekyll-plugins
